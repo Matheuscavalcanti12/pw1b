@@ -1,0 +1,30 @@
+div{ 
+    padding-top: 5px;
+}
+
+.container { 
+    
+    width: 350px;
+}
+
+.imagem-card{
+    width: 400px;
+
+}
+
+.descricao-card{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+.preco-valor{
+   font-weight: bold;
+    color:rgb(252, 110, 9);
+    font-family:  impact;
+}
+    .botao-card{
+        background-color: chocolate;
+        color:#ffffff;
+        width:150px;
+        weight:20px ;
+    }
+ 
