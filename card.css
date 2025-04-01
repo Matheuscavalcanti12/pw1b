@@ -1,14 +1,12 @@
-div{ 
-    padding-top: 5px;
-}
-
 .card{ 
-    
-  
+   
+  width: 250px;
+  margin: 5PX 10px;
 }
 
 .imagem-card{
-    width: 400px;
+    width: 250px;
+    height: 250;
 
 }
 

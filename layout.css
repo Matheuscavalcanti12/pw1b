@@ -11,7 +11,7 @@ body,html{
     margin:0 auto;
    display:grid;
    grid-template-columns: 75% 25%;
-   grid-template-rows: 100px 450px 150px;
+   grid-template-rows:100px auto 150px;
    grid-template-areas: "cabecalho cabecalho"
                         "secao barra-lateral"
                         "rodape rodape";
@@ -20,9 +20,11 @@ header{background-color: #48cfe0;
  grid-area: cabecalho ;
 }
 main{
-
-    background-color: #e048c7;
+    display: flex;
+    background-color:#ffffff;
      grid-area: secao ;
+     flex-wrap: wrap;
+     height: 100%;
      
 }
 aside{
